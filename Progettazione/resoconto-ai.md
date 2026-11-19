@@ -1,0 +1,6 @@
+##Sessione 1 (18/11)
+Che cosa ho chiesto: uno schema delle entità Evento e Sede in Mermaid; poi il codice per caricare gli eventi da JSON in programma.html; infine l’aggiunta del meteo attuale a Torino in info.html.
+Che cosa ho usato: lo schema Mermaid e il codice HTML/JavaScript proposti dall’AI. Per il programma ho usato i file eventi.json e sedi.json; per il meteo, l’API Open-Meteo. A seconda della richiesta ho incollato programma.html o info.html o i due file json. 
+Che cosa ho modificato: ho modificato i file json con le varie informazioni, ho incollato lo schema Mermaid nella cartella dati, poi ho sostituito il contenuto di programma.html con la versione dinamica proposta dall'AI e ho aggiunto le varie parti in info.html per la parte del meteo. 
+Problemi e soluzioni: inizialmente programma.html non trovava i JSON. Il problema era che programma.html e i due file json non erano nella stessa cartella, quindi non veniva riconosciuto il percorso. Ho quindi modificato i due fetch in dati/eventi.json e dati/sedi.json e ho risolto il problema. Per il meteo, la soluzione proposta mostra un messaggio di errore se l’API non risponde, senza impedire il resto della pagina.
+Come ho verificato: ho controllato il risultato nel browser, modificando il codice secondo le varie verifiche descritte in requisiti-nuova-consegna e sembra che tutto funzioni correttamente.  
